@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Newspaper Webscraping Project'
+copyright = '2022, Conny Brintzinger'
+author = 'Conny Brintzinger'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'nbsphinx',
 ]
 
 intersphinx_mapping = {
@@ -33,3 +34,5 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+exclude_patterns = ['_build', '**.ipynb_checkpoints', 'output']
