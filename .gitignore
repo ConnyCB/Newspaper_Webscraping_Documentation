@@ -9,6 +9,7 @@
 _build
 input
 output
+.vscode
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
